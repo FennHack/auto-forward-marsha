@@ -1,26 +1,26 @@
-# 🤖 Marsha JKT48 Auto-Post Telegram Bot
+# Marsha JKT48 Auto-Post Telegram Bot
 
 Bot Telegram otomatis yang memposting semua konten media Marsha JKT48 dari berbagai platform sosial media ke channel Telegram kamu — **foto, video, reels, story IG, story TikTok, dan lainnya**.
 
 ---
 
-## ✨ Fitur
+## Fitur
 
 | Platform | Posts | Stories/Live |
 |----------|-------|--------------|
-| Instagram | ✅ Foto, Video, Reels, Carousel | ✅ Story IG |
-| TikTok | ✅ Video | ✅ Story TikTok |
-| Twitter/X | ✅ Foto & Video | — |
-| Threads | ✅ Foto & Video | — |
+| Instagram | Foto, Video, Reels, Carousel | Story IG |
+| TikTok | Video | Story TikTok |
+| Twitter/X | Foto & Video | — |
+| Threads | Foto & Video | — |
 
-- 🔄 **Auto-check setiap 15 menit** via Vercel Cron
-- 🚫 **Anti-duplikat** menggunakan Upstash Redis
-- 📋 **Caption otomatis** dengan link ke post original
-- 🆓 **Gratis 100%** (Vercel free tier + RapidAPI free + Upstash free)
+- **Auto-check setiap 15 menit** via Vercel Cron
+- **Anti-duplikat** menggunakan Upstash Redis
+- **Caption otomatis** dengan link ke post original
+- **Gratis 100%** (Vercel free tier + RapidAPI free + Upstash free)
 
 ---
 
-## 🚀 Cara Deploy (Step by Step)
+## Cara Deploy (Step by Step)
 
 ### Step 1: Buat Bot Telegram
 1. Buka Telegram → cari **@BotFather**
@@ -100,19 +100,19 @@ Harusnya muncul:
 ```json
 {
   "bot": "Marsha JKT48 Auto-Post Bot",
-  "status": "🟢 Running",
+  "status": " Running",
   "platforms": {
-    "instagram": "✅ Active",
-    "tiktok": "✅ Active",
-    "twitter": "✅ Active",
-    "threads": "✅ Active"
+    "instagram": "Active",
+    "tiktok": "Active",
+    "twitter": "Active",
+    "threads": "Active"
   }
 }
 ```
 
 ---
 
-## ⚙️ Trigger Manual
+## Trigger Manual
 Untuk test, bisa trigger cron manual:
 ```
 GET https://nama-project.vercel.app/api/cron
@@ -121,7 +121,7 @@ GET https://nama-project.vercel.app/api/cron
 
 ---
 
-## 📊 Jadwal Cron
+## Jadwal Cron
 Bot dicek otomatis setiap **15 menit** oleh Vercel Cron.
 ```
 */15 * * * *
@@ -132,7 +132,7 @@ Konfigurasi ada di `vercel.json`. Bisa diubah ke:
 
 ---
 
-## 🛠️ Struktur Project
+## Struktur Project
 ```
 marsha-jkt48-bot/
 ├── api/
@@ -156,7 +156,7 @@ marsha-jkt48-bot/
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 **Q: Bot tidak posting apa-apa?**
 - Cek `/api/status` apakah semua env vars ter-set
@@ -177,5 +177,5 @@ marsha-jkt48-bot/
 
 ---
 
-## 📝 Lisensi
-Dibuat untuk keperluan fan community. Gunakan dengan bijak.
+## Lisensi
+Dibuat untuk keperluan fenn community. Gunakan dengan bijak.
