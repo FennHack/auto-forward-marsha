@@ -17,7 +17,7 @@ module.exports = async function handler(req, res) {
       channel: config.TELEGRAM_CHANNEL_ID || 'NOT SET',
       checkIntervalMinutes: config.CHECK_INTERVAL_MINUTES,
       botTokenSet: !!config.TELEGRAM_BOT_TOKEN,
-      rapidApiSet: !!config.RAPIDAPI_KEY,
+      apifySet: !!config.APIFY_TOKEN,
       redisSet: !!config.UPSTASH_REDIS_URL,
     },
     timestamp: new Date().toISOString(),
